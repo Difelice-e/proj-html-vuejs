@@ -1,7 +1,6 @@
 <template>
   <div id="app">
     <!-- qui vanno i componenti -->
-    <font-awesome-icon icon="fa-solid fa-user-secret" />
   </div>
 </template>
 
@@ -21,11 +20,6 @@ export default {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-.container {
-  max-width: 1150px;
-  margin: 0 auto;
 }
 
 :root {

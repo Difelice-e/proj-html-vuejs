@@ -1,6 +1,11 @@
 import Vue from 'vue'
 import App from './App.vue'
 
+// aggiunto bootstrap  
+import 'bootstrap'
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+// aggiunto font-awesome 
 import { library } from '@fortawesome/fontawesome-svg-core'
 
 // icona d'esempio
