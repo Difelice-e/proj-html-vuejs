@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <!-- qui vanno i componenti -->
+    <font-awesome-icon icon="fa-solid fa-user-secret" />
   </div>
 </template>
 
