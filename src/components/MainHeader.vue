@@ -7,9 +7,9 @@
             <ul class="contact">
               <li><font-awesome-icon icon="fa-solid fa-phone" /> +1 (305) 1234-5678</li>
               <li><font-awesome-icon icon="fa-solid fa-envelope" /> hello@example.com</li>
-              <li>F</li>
-              <li>T</li>
-              <li>Li</li>
+              <li><font-awesome-icon icon="fa-brands fa-facebook-f" /></li>
+              <li><font-awesome-icon icon="fa-brands fa-twitter" /></li>
+              <li><font-awesome-icon icon="fa-brands fa-linkedin-in" /></li>
             </ul>
           </div>
         </div>

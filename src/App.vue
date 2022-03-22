@@ -59,6 +59,7 @@ export default {
 .button {
   text-transform: uppercase;
   padding: 5px 10px;
+  white-space: nowrap;
 }
 
 .primary-button {
