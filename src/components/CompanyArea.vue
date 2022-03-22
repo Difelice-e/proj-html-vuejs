@@ -4,6 +4,7 @@
       <div class="row ">
         <div class="col-6">
           <div class="row">
+            <!-- sezione descrittiva  -->
             <div class="col-12">
               <span class="green-text span-title">about the network</span>
               <h4 class="title my-3"><span class="span-bg">The</span> Company</h4>
@@ -13,6 +14,7 @@
                 select clients.
               </p>
               <div class="row">
+                <!-- bullet point  -->
                 <div class="col-6 mb-3" v-for="(point, i) in companyPoints" :key="i">
                   <h5 class="point-title"><span class="green-text"><font-awesome-icon :icon="point.icon" /> </span> {{point.title}}</h5>
                   <p class="point-info">
@@ -20,6 +22,7 @@
                   </p>
                 </div>
                 
+                <!-- bottoni  -->
                 <div class="col-12 d-flex gap-3">
                     <button class="button primary-button">Get in touch</button>
                     <button class="button outline-button">Read More</button>
@@ -72,7 +75,6 @@ export default {
   background-repeat: no-repeat;
   background-position: right;
   min-height: 550px;
-  color: white;
 
   .span-bg {
     background-color: rgba(#038484,0.3);
@@ -85,22 +87,15 @@ export default {
       font-weight: 700;
   }
 
-  .info {
+  .info, .point-info {
     font-size: 11px;
+    color: var(--pumice);
   }
 
   .point-title {
     font-size: 17px;
     font-weight: 800;
+    color: white;
   }
-
-  .point-info {
-    font-size: 11px;
-  }
-
-  .span-title {
-      font-size: 11px;
-      text-transform: uppercase;
-    }
 }
 </style>

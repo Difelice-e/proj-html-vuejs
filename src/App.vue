@@ -83,7 +83,7 @@ a {
   text-transform: uppercase;
   padding: 5px 10px;
   white-space: nowrap;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .primary-button {
@@ -104,6 +104,12 @@ a {
 }
 
 .grey-text {
-  color: var(--pumice);;
+  color: var(--pumice);
+}
+
+.span-title {
+  font-size: 11px;
+  text-transform: uppercase;
+  font-weight: 700;
 }
 </style>

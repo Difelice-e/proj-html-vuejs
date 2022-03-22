@@ -9,7 +9,7 @@
 
         <!-- colonna di destra con link  -->
         <div class="col">
-          <ul class="d-flex align-items-center justify-content-end gap-2">
+          <ul class="d-flex align-items-center justify-content-end gap-3">
             <!-- link dinamici  -->
             <li v-for="(link, i) in navLinks" :key="i"><a :href="link.href">{{link.name}}</a></li>
             <!-- bottone statico -->
@@ -61,7 +61,7 @@ nav {
   right: 0;
   left: 0;
   padding: 15px 0;
-  font-size: 14px;
+  font-size: 12px;
 
   .logo {
     width: 150px;
@@ -71,10 +71,10 @@ nav {
     list-style: none;
     text-transform: uppercase;
 
-  a {
-    text-decoration: none;
-    color: currentColor;
-  }
+    a {
+      text-decoration: none;
+      color: currentColor;
+    }
   }
 }
 </style>

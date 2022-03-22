@@ -39,7 +39,6 @@ export default {
     .container-fluid {
         align-items: center;
         
-
         .jumbo-title {
             font-size: 43px;
             font-weight: 800;

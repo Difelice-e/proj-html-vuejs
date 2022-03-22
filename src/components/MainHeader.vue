@@ -70,10 +70,10 @@ header {
       white-space: nowrap;
 
       a {
-    text-decoration: none;
-    color: currentColor;
-  }
-   }
+      text-decoration: none;
+      color: currentColor;
+      }
+    }
   }
 }
 
