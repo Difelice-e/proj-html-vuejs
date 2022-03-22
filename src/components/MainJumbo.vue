@@ -30,10 +30,10 @@ export default {
 
 <style lang="scss" scoped>
 .jumbotron {
-    background-image: url("../assets/images/bg-parallax.png");
+    background-image: url("../assets/images/bg-parallax.png"), url("../assets/images/bg-2-jumbo.png");
     min-height: 866px;
-    background-size: cover;
-    background-position: center;
+    background-size: cover, cover;
+    background-position: center, bottom;
     position: relative;
 
     .container-fluid {
@@ -41,12 +41,13 @@ export default {
         
 
         .jumbo-title {
-
- 
+            font-size: 43px;
+            font-weight: 800;
+            white-space: nowrap;
         }
 
         .jumbo-info {
-            font-size: 0.8rem;
+            font-size: 12px;
         }
     }
 }

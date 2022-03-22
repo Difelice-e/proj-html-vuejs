@@ -61,6 +61,7 @@ nav {
   right: 0;
   left: 0;
   padding: 15px 0;
+  font-size: 14px;
 
   .logo {
     width: 150px;

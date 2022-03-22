@@ -60,7 +60,7 @@ export default {
 header {
   background-color: var(--bigstone);
   color: var(--pumice);
-  font-size: 1rem;
+  font-size: 11px;
 
   .contact {
   display: contents;

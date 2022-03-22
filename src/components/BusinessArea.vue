@@ -3,10 +3,10 @@
     <div class="container py-5">
       <div class="row">
         <div class="col-12">
-          <span class="green-text">our business area</span>
-          <h3>Excellence in <span class="colored-span">Services</span></h3>
+          <span class="green-text span-title">our business area</span>
+          <h3 class="my-3 title">Excellence in <span class="colored-span">Services</span></h3>
           <div class="d-flex justify-content-between align-items-center gap-3">
-            <p class="grey-text">
+            <p class="grey-text info">
               We are leaders in providing consultancy services with a set of
               cutting-edge technologies and a team of experienced and renowned
               professionals. These are some options that you can hire
@@ -20,8 +20,8 @@
             <div  class="col-10">
               <div>
                 <img :src="card.img" class="card_image mb-3" alt="" />
-                <h4 class="mb-3">{{card.title}}</h4>
-                <p class="grey-text">{{card.info}}</p>
+                <h4 class="mb-3 card-title">{{card.title}}</h4>
+                <p class="grey-text card-info">{{card.info}}</p>
               </div>
             </div>
             <div class="col-2">
@@ -82,16 +82,40 @@ export default {
 .business-area {
   background-color: var(--graynurse);
 
+  .span-title {
+      font-size: 11px;
+      text-transform: uppercase;
+    }
+
+  .title {
+    font-size: 29px;
+    font-weight: 800;
+  }
+
+  .card-title {
+    font-size: 15px;
+    font-weight: 700;
+  }
+
+  .info {
+    font-size: 11px;
+  }
+
+  .card-info {
+    font-size: 11px;
+  }
+
   .business-card {
     background-color: var(--white);
     border-radius: 15px;
 
     .card_image {
-      // width: 20%;
-      height: 40px;
+      
+      height: 43px;
       filter: invert(31%) sepia(92%) saturate(4156%) hue-rotate(165deg) brightness(92%) contrast(98%)
     }
 
+    
     .fa-arrow-right {
       color: var(--bluelagoon);
       font-size: 1.5rem;

@@ -5,17 +5,17 @@
         <div class="col-6">
           <div class="row">
             <div class="col-12">
-              <span class="green-text">about the network</span>
-              <h4 class="title my-3"><span class="colored-span">The</span> Company</h4>
-              <p class="mb-5">
+              <span class="green-text span-title">about the network</span>
+              <h4 class="title my-3"><span class="span-bg">The</span> Company</h4>
+              <p class="mb-5 info">
                 For 12 years we have been providing audit and warranty,
                 financial advice, risk advice, taxes and related services to
                 select clients.
               </p>
               <div class="row">
                 <div class="col-6 mb-3" v-for="(point, i) in companyPoints" :key="i">
-                  <h5><span class="green-text"><font-awesome-icon :icon="point.icon" /> </span> {{point.title}}</h5>
-                  <p>
+                  <h5 class="point-title"><span class="green-text"><font-awesome-icon :icon="point.icon" /> </span> {{point.title}}</h5>
+                  <p class="point-info">
                     {{point.info}}
                   </p>
                 </div>
@@ -74,8 +74,33 @@ export default {
   min-height: 550px;
   color: white;
 
+  .span-bg {
+    background-color: rgba(#038484,0.3);
+    padding: 5px;
+  }
+
   .title {
       color: white;
+      font-size: 30px;
+      font-weight: 700;
   }
+
+  .info {
+    font-size: 11px;
+  }
+
+  .point-title {
+    font-size: 17px;
+    font-weight: 800;
+  }
+
+  .point-info {
+    font-size: 11px;
+  }
+
+  .span-title {
+      font-size: 11px;
+      text-transform: uppercase;
+    }
 }
 </style>
