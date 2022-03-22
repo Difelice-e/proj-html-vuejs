@@ -35,7 +35,7 @@ header {
    
     li {
       white-space: nowrap;
-    }
+   }
   }
 }
 

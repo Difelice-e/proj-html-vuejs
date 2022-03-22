@@ -2,18 +2,23 @@
   <div id="app">
     <!-- qui vanno i componenti -->
     <MainHeader />
+    <main>
+      <MainJumbo />
+    </main>
   </div>
 </template>
 
 <script>
-import MainHeader from './components/MainHeader.vue'
+import MainHeader from "./components/MainHeader.vue";
+import MainJumbo from "./components/MainJumbo.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    MainHeader
-  }
-}
+    MainHeader,
+    MainJumbo,
+  },
+};
 </script>
 
 <style lang="scss">
@@ -21,10 +26,11 @@ export default {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: var(--gravel);
 }
 
 :root {
-  // Color Cube 
+  // Color Cube
   --white: #ffffff;
   --woodsmoke: #111117;
   --bluelagoon: #038484;
@@ -34,7 +40,7 @@ export default {
   --fountainblue: #52bbba;
   --anakiwa: #8fffff;
 
-  // Median Cut  
+  // Median Cut
   --shark: #1d2023;
   --graynurse: #eef1ed;
   --seanymph: #6ca0a0;
@@ -45,7 +51,25 @@ export default {
   --elm: #1c918e;
   --santafe-muted: #ab6b53;
   --bigstone: #122439;
-  --masala:  #443c3b;
+  --masala: #443c3b;
   --akaroa: #d6b9a3;
+}
+
+// common
+.button {
+  text-transform: uppercase;
+  padding: 5px 10px;
+}
+
+.primary-button {
+  background-color: var(--bluelagoon);
+  color: white;
+  border: 1px solid var(--bluelagoon);
+}
+
+.outline-button {
+  border: 1px solid var(--bluelagoon);
+  color: var(--bluelagoon);
+  background-color: transparent;
 }
 </style>
