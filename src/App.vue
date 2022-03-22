@@ -1,16 +1,17 @@
 <template>
   <div id="app">
     <!-- qui vanno i componenti -->
+    <MainHeader />
   </div>
 </template>
 
 <script>
-
+import MainHeader from './components/MainHeader.vue'
 
 export default {
   name: 'App',
   components: {
-    
+    MainHeader
   }
 }
 </script>

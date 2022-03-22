@@ -8,14 +8,17 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // aggiunto font-awesome 
 import { library } from '@fortawesome/fontawesome-svg-core'
 
-// icona d'esempio
-import { faUserSecret } from '@fortawesome/free-solid-svg-icons'
+// icone
+import { faClock } from '@fortawesome/free-solid-svg-icons'
+import { faPhone } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+// import { faTwitter } from '@fortawesome/free-solid-svg-icons'
 
 /* import font awesome icon component */
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 /* add icons to the library */
-library.add(faUserSecret)
+library.add(faClock, faPhone, faEnvelope)
 
 /* add font awesome icon component */
 Vue.component('font-awesome-icon', FontAwesomeIcon)
