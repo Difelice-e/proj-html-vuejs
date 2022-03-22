@@ -1,11 +1,11 @@
 <template>
   <section class="py-5 business-area">
-    <div class="container">
+    <div class="container py-5">
       <div class="row">
         <div class="col-12">
           <span class="green-text">our business area</span>
           <h3>Excellence in <span class="colored-span">Services</span></h3>
-          <div class="d-flex justify-content-between gap-3">
+          <div class="d-flex justify-content-between align-items-center gap-3">
             <p class="grey-text">
               We are leaders in providing consultancy services with a set of
               cutting-edge technologies and a team of experienced and renowned
@@ -87,12 +87,14 @@ export default {
     border-radius: 15px;
 
     .card_image {
-      width: 20%;
+      // width: 20%;
+      height: 40px;
       filter: invert(31%) sepia(92%) saturate(4156%) hue-rotate(165deg) brightness(92%) contrast(98%)
     }
 
     .fa-arrow-right {
       color: var(--bluelagoon);
+      font-size: 1.5rem;
     }
   }
 }

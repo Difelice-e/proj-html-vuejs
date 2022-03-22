@@ -9,7 +9,7 @@
 
         <!-- colonna di destra con link  -->
         <div class="col">
-          <ul class="d-flex align-items-center gap-2">
+          <ul class="d-flex align-items-center justify-content-end gap-2">
             <!-- link dinamici  -->
             <li v-for="(link, i) in navLinks" :key="i"><a :href="link.href">{{link.name}}</a></li>
             <!-- bottone statico -->

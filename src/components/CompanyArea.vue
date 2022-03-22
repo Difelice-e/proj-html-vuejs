@@ -1,6 +1,6 @@
 <template>
-  <section class="company-area d-flex align-items-center">
-    <div class="container">
+  <section class="company-area d-flex align-items-center py-5">
+    <div class="container py-5">
       <div class="row ">
         <div class="col-6">
           <div class="row">
@@ -14,7 +14,7 @@
               </p>
               <div class="row">
                 <div class="col-6 mb-3" v-for="(point, i) in companyPoints" :key="i">
-                  <h5><span>{{point.icon}}</span> {{point.title}}</h5>
+                  <h5><span class="green-text"><font-awesome-icon :icon="point.icon" /> </span> {{point.title}}</h5>
                   <p>
                     {{point.info}}
                   </p>
@@ -39,22 +39,22 @@ export default {
     return {
       companyPoints: [
         {
-          icon: "x",
+          icon: 'fa-solid fa-medal',
           title: "Tradition",
           info: "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
         },
         {
-          icon: "x",
+          icon: "fa-solid fa-lock",
           title: "Security",
           info: "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
         },
         {
-          icon: "x",
+          icon: "fa-solid fa-pen-to-square",
           title: "Certificate",
           info: "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
         },
         {
-          icon: "x",
+          icon: "fa-solid fa-graduation-cap",
           title: "Expertise",
           info: "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
         },
