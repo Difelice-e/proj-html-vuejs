@@ -4,6 +4,7 @@
     <MainHeader />
     <main>
       <MainJumbo />
+      <BusinessArea />
     </main>
   </div>
 </template>
@@ -11,12 +12,14 @@
 <script>
 import MainHeader from "./components/MainHeader.vue";
 import MainJumbo from "./components/MainJumbo.vue";
+import BusinessArea from "./components/BusinessArea.vue";
 
 export default {
   name: "App",
   components: {
     MainHeader,
     MainJumbo,
+    BusinessArea
   },
 };
 </script>
@@ -56,6 +59,11 @@ export default {
 }
 
 // common
+img {
+  max-width: 100%;
+  display: block;
+}
+
 .button {
   text-transform: uppercase;
   padding: 5px 10px;
