@@ -19,9 +19,9 @@
           <div class="row business-card p-5">
             <div  class="col-10">
               <div>
-                <img :src="card.img" class="card_image" alt="" />
-                <h4>{{card.title}}</h4>
-                <p>{{card.info}}</p>
+                <img :src="card.img" class="card_image mb-3" alt="" />
+                <h4 class="mb-3">{{card.title}}</h4>
+                <p class="grey-text">{{card.info}}</p>
               </div>
             </div>
             <div class="col-2">
@@ -89,6 +89,10 @@ export default {
     .card_image {
       width: 20%;
       filter: invert(31%) sepia(92%) saturate(4156%) hue-rotate(165deg) brightness(92%) contrast(98%)
+    }
+
+    .fa-arrow-right {
+      color: var(--bluelagoon);
     }
   }
 }

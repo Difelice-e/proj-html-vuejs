@@ -5,6 +5,7 @@
     <main>
       <MainJumbo />
       <BusinessArea />
+      <CompanyArea />
     </main>
   </div>
 </template>
@@ -13,13 +14,15 @@
 import MainHeader from "./components/MainHeader.vue";
 import MainJumbo from "./components/MainJumbo.vue";
 import BusinessArea from "./components/BusinessArea.vue";
+import CompanyArea from "./components/CompanyArea.vue";
 
 export default {
   name: "App",
   components: {
     MainHeader,
     MainJumbo,
-    BusinessArea
+    BusinessArea,
+    CompanyArea,
   },
 };
 </script>
