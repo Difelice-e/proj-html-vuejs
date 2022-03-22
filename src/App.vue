@@ -64,6 +64,18 @@ img {
   display: block;
 }
 
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+
+.colored-span {
+  color: var(--bluelagoon);
+  background-color: rgba(#038484,0.2);
+  padding: 5px;
+}
+
+// bottoni 
 .button {
   text-transform: uppercase;
   padding: 5px 10px;
@@ -80,5 +92,14 @@ img {
   border: 1px solid var(--bluelagoon);
   color: var(--bluelagoon);
   background-color: transparent;
+}
+
+// testi 
+.green-text {
+  color: var(--fountainblue);
+}
+
+.grey-text {
+  color: var(--pumice);;
 }
 </style>

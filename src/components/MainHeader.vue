@@ -2,8 +2,11 @@
   <header class="py-2">
       <div class="container">
         <div class="row align-items-center">
+          <!-- colonna di sinistra  -->
           <div class="col"><font-awesome-icon icon="fa-solid fa-clock" /> Open Hours: Mon - Sat - 9:00 - 18:00</div>
-          <div class="col d-flex gap-3">
+
+          <!-- colonna di destra  -->
+          <div class="col d-flex gap-3 justify-content-end">
             <ul class="contact">
               <li><font-awesome-icon icon="fa-solid fa-phone" /> +1 (305) 1234-5678</li>
               <li><font-awesome-icon icon="fa-solid fa-envelope" /> hello@example.com</li>
