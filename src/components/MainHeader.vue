@@ -3,16 +3,12 @@
       <div class="container">
         <div class="row align-items-center">
           <!-- colonna di sinistra  -->
-          <div class="col"><font-awesome-icon icon="fa-solid fa-clock" /> Open Hours: Mon - Sat - 9:00 - 18:00</div>
+          <div class="col"><font-awesome-icon icon="fa-solid fa-clock" /> Open Hours: {{openDay}} - {{closeDay}} - {{openHour}} - {{closeHour}}</div>
 
           <!-- colonna di destra  -->
           <div class="col d-flex gap-3 justify-content-end">
             <ul class="contact">
-              <li><font-awesome-icon icon="fa-solid fa-phone" /> +1 (305) 1234-5678</li>
-              <li><font-awesome-icon icon="fa-solid fa-envelope" /> hello@example.com</li>
-              <li><font-awesome-icon icon="fa-brands fa-facebook-f" /></li>
-              <li><font-awesome-icon icon="fa-brands fa-twitter" /></li>
-              <li><font-awesome-icon icon="fa-brands fa-linkedin-in" /></li>
+              <li v-for="(link, i) in headerLinks"  :key="i"><a :href="link.href"><font-awesome-icon :icon="link.icon" /> {{link.text}}</a></li>
             </ul>
           </div>
         </div>
@@ -22,7 +18,41 @@
 
 <script>
 export default {
-
+  data () {
+    return {
+      openDay: 'Mon',
+      closeDay: 'Sat',
+      openHour: '9:00',
+      closeHour: '18:00',
+      headerLinks: [
+        {
+          icon: 'fa-solid fa-phone',
+          text: '+1 (305) 1234-5678',
+          href: '#'
+        },
+        {
+          icon: 'fa-solid fa-envelope',
+          text: 'hello@example.com',
+          href: '#'
+        },
+        {
+          icon: 'fa-brands fa-facebook-f',
+          text: '',
+          href: '#'
+        },
+        {
+          icon: 'fa-brands fa-twitter',
+          text: '',
+          href: '#'
+        },
+        {
+          icon: 'fa-brands fa-linkedin-in',
+          text: '',
+          href: '#'
+        },
+      ]
+    }
+  }
 }
 </script>
 
@@ -38,6 +68,11 @@ header {
    
     li {
       white-space: nowrap;
+
+      a {
+    text-decoration: none;
+    color: currentColor;
+  }
    }
   }
 }
