@@ -94,9 +94,10 @@ a {
 // bottoni 
 .button {
   text-transform: uppercase;
-  padding: 5px 10px;
+  padding: 8px 15px;
   white-space: nowrap;
   font-size: 12px;
+  border-radius: 5px;
 }
 
 .primary-button {
@@ -108,6 +109,12 @@ a {
 .outline-button {
   border: 1px solid var(--bluelagoon);
   color: var(--bluelagoon);
+  background-color: transparent;
+}
+
+.outline-dark-button {
+  border: 1px solid var(--bluelagoon);
+  color: white;
   background-color: transparent;
 }
 

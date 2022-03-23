@@ -61,7 +61,7 @@ export default {
 <style lang="scss" scoped>
 .results {
     background-image: url('../assets/images/bg-7.jpg');
-    background-size: cover;
+    background-size: contain;
     background-position: top;
 
     .span-bg {
@@ -77,7 +77,7 @@ export default {
 
     .number {
         color: white;
-        margin-bottom: 270px;
+        margin-bottom: 370px;
     }
 
     ul {

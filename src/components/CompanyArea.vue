@@ -25,7 +25,7 @@
                 <!-- bottoni  -->
                 <div class="col-12 d-flex gap-3">
                     <button class="button primary-button">Get in touch</button>
-                    <button class="button outline-button">Read More</button>
+                    <button class="button outline-dark-button">Read More</button>
                 </div>
               </div>
             </div>

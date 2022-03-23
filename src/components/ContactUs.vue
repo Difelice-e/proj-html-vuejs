@@ -76,6 +76,9 @@ export default {
         width: 100%;
         margin-bottom: 24px;
         padding: 8px;
+        background-color: var(--graynurse);
+        border: none;
+        border-radius: 5px;
     }
 
     .input-icon {
@@ -90,6 +93,9 @@ export default {
         width: 100%;
         height: 150px;
         padding: 8px;
+        background-color: var(--graynurse);
+        border: none;
+        border-radius: 5px;
     }
 
     ul {
