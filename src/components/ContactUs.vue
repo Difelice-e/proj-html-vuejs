@@ -8,10 +8,16 @@
                   <p>We will respond to your message as soon as possibile</p>
 
                   <div class="row">
-                      <div class="col-6"><input type="text" placeholder="Name"></div>
+                      <div class="col-6 position-relative">
+                          <input type="text" placeholder="Name">
+                          <img class="input-icon" src="../assets/images/image (1).png" alt="">
+                      </div>
                       <div class="col-6"><input type="email" placeholder="Email"></div>
                       <div class="col-6"><input type="number" placeholder="Phone"></div>
-                      <div class="col-6"><input type="text" placeholder="More Info"></div>
+                      <div class="col-6 position-relative">
+                          <input type="text" placeholder="More Info">
+                          <font-awesome-icon icon="fa-solid fa-chevron-down" class="input-icon"/>
+                      </div>
                       <div class="col-12">
                           <textarea type="text" placeholder="Message" class="mb-3"></textarea>
                           <button class="button primary-button">Send</button>
@@ -70,6 +76,13 @@ export default {
         width: 100%;
         margin-bottom: 24px;
         padding: 8px;
+    }
+
+    .input-icon {
+        position: absolute;
+        right: 20px;
+        top: 50%;
+        transform: translateY(-125%)
     }
 
     textarea {
