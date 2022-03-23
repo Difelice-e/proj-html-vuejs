@@ -71,7 +71,7 @@ export default {
 .company-area {
   background-color: black;
   background-image: url("../assets/images/about-4.jpg");
-  background-size: contain;
+  background-size: 50%;
   background-repeat: no-repeat;
   background-position: right;
   min-height: 550px;

@@ -3,8 +3,10 @@
       <div class="container py-5">
           <div class="row">
               <div class="col-12 text-center">
+                  <!-- titolo sezione  -->
                   <span class="span-title green-text">We do more for everyone</span>
                   <h4 class="title my-3">Actions & <span class="span-bg">Projects</span></h4>
+                  <!-- lista categorie   -->
                   <ul class="d-flex justify-content-center gap-3">
                       <li v-for="(category, i) in categories" 
                       :key="i"
@@ -14,6 +16,7 @@
                   </ul>
               </div>
 
+              <!-- sezione delle card  -->
               <div v-for="(card,i) in cards" :key="i" class="col-4 p-3">
                   <div class="card-wrapper d-flex align-items-end text-center">
                       <img class="card-img" :src="card.img" alt="">

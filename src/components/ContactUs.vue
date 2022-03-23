@@ -3,10 +3,12 @@
       <div class="container py-5">
           <div class="row">
               <div class="col-8">
+                  <!-- titolo sezione  -->
                   <span class="span-title green-text">Send a message</span>
                   <h4 class="title my-3">Get in<span class="span-bg">Touch</span></h4>
                   <p>We will respond to your message as soon as possibile</p>
-
+                  
+                  <!-- form invio messaggi  -->
                   <div class="row">
                       <div class="col-6 position-relative">
                           <input type="text" placeholder="Name">
@@ -18,13 +20,16 @@
                           <input type="text" placeholder="More Info">
                           <font-awesome-icon icon="fa-solid fa-chevron-down" class="input-icon"/>
                       </div>
+
+                      <!-- bottoni di invio  -->
                       <div class="col-12">
                           <textarea type="text" placeholder="Message" class="mb-3"></textarea>
                           <button class="button primary-button">Send</button>
                       </div>
                   </div>
               </div>
-
+              
+              <!-- colonna di destra con contatti -->
               <div class="col-4 ps-5">
                   <h5>Example Inc.</h5>
                   <p>

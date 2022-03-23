@@ -2,10 +2,13 @@
   <section class="business-area py-5">
     <div class="container py-5">
       <div class="row">
-        <!-- sezione descrittiva  -->
+        
         <div class="col-12">
+          <!-- titolo sezione  -->
           <span class="span-title green-text">our business area</span>
           <h3 class="title my-3">Excellence in <span class="colored-span">Services</span></h3>
+
+          <!-- sezione descrittiva  -->
           <div class="d-flex justify-content-between align-items-center gap-3">
             <p class="info gray-text">
               We are leaders in providing consultancy services with a set of
