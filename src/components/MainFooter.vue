@@ -1,16 +1,28 @@
 <template>
-  <footer>
+  <footer class="py-5">
       <div class="container">
           <div class="row">
               <div class="col-3">
-                  <img src="" alt="">
+                  <img src="../assets/svgs/svg-7.svg" class="logo" alt="">
                   <p>A Functional HTML template for Corporate & Business</p>
                   <ul>
-                      <li v-for="(contact, i) in contacts"  :key="i"><span class="icon-wrapper"><font-awesome-icon :icon="contact.icon" /></span> {{contact.text}}</li>
+                      <li v-for="(contact, i) in contacts"  :key="i"><font-awesome-icon class="icon" :icon="contact.icon" /> {{contact.text}}</li>
                   </ul>
                   <button class="button outline-button">Get in touch</button>
               </div>
-              <div class="col-3"></div>
+              
+              <div v-for="(footerTitle,i) in footerLinks" :key="i" class="col-3">
+                  <div class="footer-links">
+                      <h4 class="mb-3">{{footerTitle.title}}</h4>
+                  <ul>
+                      <li v-for="(link,i) in footerTitle.links" :key="i"><a :href="link.href"><font-awesome-icon class="icon" icon="fa-solid fa-chevron-right" />{{link.name}}</a></li>
+                  </ul>
+                  </div>
+                  
+              </div>
+
+              <div class="col-6">Enjoy the low price. We are tracking any intention of piracy</div>
+              <div class="col-6 text-end">2020 NEXGEN is Proudly Powered by <span class="green-text">Codings</span>.</div>
           </div>
       </div>
   </footer>
@@ -33,6 +45,95 @@ export default {
                     icon: 'fa-solid fa-location-dot',
                     text: 'Main Avenue, 987'
                 },
+            ],
+            footerLinks: [
+                {
+                    title: 'About',
+                    links: [
+                        {
+                            name: 'The Company',
+                            href: '#'
+                        },
+                        {
+                            name: 'Institutional',
+                            href: '#'
+                        },
+                        {
+                            name: 'Social & Events',
+                            href: '#'
+                        },
+                        {
+                            name: 'Innovation',
+                            href: '#'
+                        },
+                        {
+                            name: 'Enviroment',
+                            href: '#'
+                        },
+                        {
+                            name: 'Technology',
+                            href: '#'
+                        },
+                    ]
+                },
+                {
+                   title: 'Services',
+                   links: [
+                       {
+                            name: 'Audit & Assurance',
+                            href: '#'
+                        },
+                        {
+                            name: 'financial Advisory',
+                            href: '#'
+                        },
+                        {
+                            name: 'Analytics M&A',
+                            href: '#'
+                        },
+                        {
+                            name: 'Middle Marketing',
+                            href: '#'
+                        },
+                        {
+                            name: 'Legal Consulting',
+                            href: '#'
+                        },
+                        {
+                            name: 'Regulatory Risk',
+                            href: '#'
+                        },
+                   ] 
+                },
+                {
+                   title: 'Support',
+                   links: [
+                       {
+                            name: 'Responsibility',
+                            href: '#'
+                        },
+                        {
+                            name: 'Terms of Use',
+                            href: '#'
+                        },
+                        {
+                            name: 'About Cookies',
+                            href: '#'
+                        },
+                        {
+                            name: 'Privacy Policy',
+                            href: '#'
+                        },
+                        {
+                            name: 'Accessibility',
+                            href: '#'
+                        },
+                        {
+                            name: 'Information',
+                            href: '#'
+                        },
+                   ] 
+                },
             ]
         }
     }
@@ -43,10 +144,36 @@ export default {
 footer {
     background-color: black;
     color: white;
+
+    .logo {
+        width: 150px;
+    }
+
     ul{
         list-style: none;
         padding-left: 0;
     }
+
+    .icon {
+        margin-right: 10px;
+    }
+    
+    .footer-links {
+        margin-bottom: 250px;
+        background-color: rgba(255, 255, 255, 0.2);
+        padding: 20px;
+        border-radius: 15px;
+
+
+        
+
+            a {
+                text-decoration: none;
+                color: currentColor;
+            }
+        
+    }
+    
     
 }
 </style>
