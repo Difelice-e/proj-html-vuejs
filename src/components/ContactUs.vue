@@ -6,7 +6,7 @@
                   <!-- titolo sezione  -->
                   <span class="pre-title">Send a message</span>
                   <h4 class="section-title my-3">Get in <span class="colored-span">Touch</span></h4>
-                  <p class="paragraph">We will respond to your message as soon as possibile</p>
+                  <p class="paragraph mb-5">We will respond to your message as soon as possibile</p>
                   
                   <!-- form invio messaggi  -->
                   <div class="row">
@@ -31,13 +31,13 @@
               
               <!-- colonna di destra con contatti -->
               <div class="col-4 ps-5">
-                  <h5>Example Inc.</h5>
-                  <p class="paragraph">
+                  <h5 class="fw-bold">Example Inc.</h5>
+                  <p class="paragraph mb-5">
                      Lorem ipsum dolor sit amet consectetur adipisicing elit.<br><br>
                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   </p>
                   <ul>
-                      <li class="green-text" v-for="(contact, i) in contacts"  :key="i"><span class="icon-wrapper"><font-awesome-icon :icon="contact.icon" /></span> {{contact.text}}</li>
+                      <li v-for="(contact, i) in contacts"  :key="i"><span class="icon-wrapper"><font-awesome-icon :icon="contact.icon" /></span> {{contact.text}}</li>
                   </ul>
                   <button class="button outline-button">View Map</button>
               </div>
@@ -73,13 +73,18 @@ export default {
 @import '../assets/scss/palette.scss';
 .contact-us {
 
-    input {
+    input, textarea {
         width: 100%;
         margin-bottom: 24px;
         padding: 8px;
         background-color: $graynurse;
         border: none;
         border-radius: 5px;
+    }
+
+    textarea {
+        resize: none;
+        height: 150px;
     }
 
     .input-icon {
@@ -89,30 +94,23 @@ export default {
         transform: translateY(-125%)
     }
 
-    textarea {
-        resize: none;
-        width: 100%;
-        height: 150px;
-        padding: 8px;
-        background-color: $graynurse;
-        border: none;
-        border-radius: 5px;
-    }
-
     ul {
         padding-left: 0;
 
         li {
-            margin-bottom: 8px;
+            margin-bottom: 18px;
+            font-size: 16px;
+            color: $bluelagoon;
+            font-weight: 300;
 
             .icon-wrapper {
                 display: inline-block;
-                background-color: rgba(#038484,0.3);
+                background-color: rgba($seanymph,0.3);
                 border-radius: 999px;
                 aspect-ratio: 1/1;
-                width: 30px;
+                width: 50px;
                 text-align: center;
-                line-height: 30px;
+                line-height: 50px;
                 margin-right: 8px;
             }
         }

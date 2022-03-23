@@ -6,6 +6,10 @@ img {
     max-width: 100%;
     display: block;
 }
+
+.logo {
+    width: 150px;
+}
   
 ul {
     list-style: none;
@@ -19,9 +23,9 @@ ul {
   // bottoni 
 .button {
     text-transform: uppercase;
-    padding: 8px 15px;
+    padding: 8px 20px;
     white-space: nowrap;
-    font-size: 12px;
+    font-size: 16px;
     border-radius: 5px;
 }
   
@@ -47,10 +51,12 @@ ul {
     text-transform: uppercase;
     font-weight: 700;
     color: #0FA8A4;
+    display: block;
+    margin-bottom: 30px;
 }
 
 .section-title {
-    font-size: 35px;
+    font-size: 52px;
     font-weight: 900;
 
     &.dark {
@@ -74,32 +80,18 @@ ul {
     color: #979797;
 }
 
+.list {
+    font-size: 16px;
+    color: #747474;
+    text-transform: uppercase;
+}
+
 .subtitle {
     font-size: 20px;
     color: white;
     font-weight: 700;
 }
 
-
-// common da aggiungere 
-
-// SEZIONE COMPANY:
-// ICONE COLORE: 0FA8A4
-// ALTEZZA ICONE 30PX
-
-// SEZIONE NUMERI: 
-// NUMERI COLORE: #979797
-// FONT-SIZE: 35PX
-// SCRITTE COLORE: BIANCO
-// FONT-SIZE: 20PX
-
-// SPONSOR ALTEZZA 30PX
-
-// SEZIONE SEND A MESSAGE:
-// ICONE ALTEZZA 50PX
-// FONT-SIZE 18PX
-// COLORE: BLUE LAGOON
-// BG: TRASPARENZA LAGOON?
-
-// FOOTER:
-// LINK FINALI FONT-SIZE: 14PX
+.green-text {
+    color: #0FA8A4;
+}

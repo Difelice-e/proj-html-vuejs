@@ -10,7 +10,7 @@
 
           <!-- sezione descrittiva  -->
           <div class="d-flex justify-content-between align-items-center gap-3">
-            <p class="paragraph">
+            <p class="paragraph w-75">
               We are leaders in providing consultancy services with a set of
               cutting-edge technologies and a team of experienced and renowned
               professionals. These are some options that you can hire
@@ -31,9 +31,8 @@
             </div>
             <div class="col-2">
               <div>
-                  <font-awesome-icon icon="fa-solid fa-arrow-right" />
+                  <font-awesome-icon icon="fa-solid fa-arrow-right" class="green-text"/>
               </div>
-              
             </div>
           </div>
         </div>
@@ -103,8 +102,8 @@ export default {
     }
     
     .fa-arrow-right {
-      color: $bluelagoon;
       font-size: 1.5rem;
+      opacity: 0.6;
     }
   }
 }

@@ -7,7 +7,7 @@
             <!-- sezione descrittiva  -->
             <div class="col-12">
               <span class="pre-title">about the network</span>
-              <h4 class="section-title dark my-3"><span class="colored-span dark">The</span> Company</h4>
+              <h4 class="section-title dark mb-4"><span class="colored-span dark">The</span> Company</h4>
               <p class="paragraph mb-5">
                 For 12 years we have been providing audit and warranty,
                 financial advice, risk advice, taxes and related services to
@@ -15,7 +15,7 @@
               </p>
               <div class="row">
                 <!-- bullet point  -->
-                <div class="col-6 mb-3" v-for="(point, i) in companyPoints" :key="i">
+                <div class="col-6 mb-5" v-for="(point, i) in companyPoints" :key="i">
                   <h5 class="subtitle"><span class="icon"><font-awesome-icon :icon="point.icon" /> </span> {{point.title}}</h5>
                   <p class="paragraph">
                     {{point.info}}

@@ -1,6 +1,6 @@
 <template>
   <footer class="py-5">
-    <div class="container">
+    <div class="container pt-5">
       <div class="row">
         <div class="col-3 grey-text">
           <!-- logo e contatti  -->
@@ -35,10 +35,10 @@
         </div>
         
         <!-- credits e copyright  -->
-        <div class="col-6 paragraph">
+        <div class="col-6 footer-paragraph">
           Enjoy the low price. We are tracking any intention of piracy
         </div>
-        <div class="col-6 text-end paragraph">
+        <div class="col-6 text-end footer-paragraph">
           2020 NEXGEN is Proudly Powered by
           <span class="green-text">Codings</span>.
         </div>
@@ -165,10 +165,6 @@ footer {
   background-color: $woodsmoke;
   color: white;
 
-  .logo {
-    width: 150px;
-  }
-
   ul {
     padding-left: 0;
 
@@ -190,6 +186,11 @@ footer {
     .link-title {
       font-weight: 700;
     }
+  }
+
+  .footer-paragraph {
+      font-size: 14px;
+      color: #979797;
   }
 }
 </style>

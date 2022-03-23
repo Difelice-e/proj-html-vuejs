@@ -34,7 +34,7 @@ export default {
 .jumbotron {
     background-image: url("../assets/images/bg-parallax.png"), url("../assets/images/bg-2-jumbo.png");
     min-height: 866px;
-    background-size: cover, cover;
+    background-size: cover;
     background-position: center, bottom;
     position: relative;
 
@@ -42,7 +42,7 @@ export default {
         align-items: center;
         
         .jumbo-title {
-            font-size: 48px;
+            font-size: 60px;
             font-weight: 900;
             white-space: nowrap;
         }

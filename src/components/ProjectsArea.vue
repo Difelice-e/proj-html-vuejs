@@ -5,13 +5,13 @@
               <div class="col-12 text-center">
                   <!-- titolo sezione  -->
                   <span class="pre-title">We do more for everyone</span>
-                  <h4 class="section-title my-3">Actions & <span class="colored-span">Projects</span></h4>
+                  <h4 class="section-title mb-5">Actions & <span class="colored-span">Projects</span></h4>
                   <!-- lista categorie   -->
                   <ul class="d-flex justify-content-center gap-3">
                       <li v-for="(category, i) in categories" 
                       :key="i"
                       :class="i === 0 ? 'active' : ''"
-                      class="paragraph text-uppercase">
+                      class="list">
                         {{category}}
                       </li>
                   </ul>
@@ -71,14 +71,14 @@ export default {
 @import '../assets/scss/palette.scss';
 .projects {
 
-        li {
-            padding: 5px 8px;
+    li {
+        padding: 5px 8px;
 
-            &.active {
-                background-color: rgba($seanymph,0.25);
-                color: $seanymph;
-            }
+        &.active {
+            background-color: rgba($seanymph,0.25);
+            color: $seanymph;
         }
+    }
 
     .card-wrapper {
         position: relative;

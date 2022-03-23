@@ -10,7 +10,7 @@
               
               <!-- numeri dell'azienda  -->
               <div v-for="(result,i) in results" :key="i" class="col-3 text-center">
-                  <h5 class="number"><span class="green-text">{{result.number}}</span><br>{{result.title}}</h5>
+                  <h5 class="number"><span class="counter">{{result.number}}</span><br>{{result.title}}</h5>
               </div>
               
               <!-- sezione sponsor  -->
@@ -69,12 +69,19 @@ export default {
 
     .number {
         color: white;
+        font-size: 20px;
         margin-bottom: 370px;
+        line-height: 40px;
+
+        .counter {
+            font-size: 35px;
+            color: #0FA8A4;
+        }
     }
 
-        .sponsor-img {
-            height: 30px;
-            filter: invert(1);
-        }
+    .sponsor-img {
+        height: 30px;
+        filter: invert(1);
+    }
 }
 </style>

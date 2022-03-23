@@ -3,12 +3,14 @@
       <div class="container">
         <div class="row align-items-center">
           <!-- colonna di sinistra  -->
-          <div class="col"><font-awesome-icon icon="fa-solid fa-clock" /> Open Hours: {{openDay}} - {{closeDay}} - {{openHour}} - {{closeHour}}</div>
+          <div class="col paragraph"><font-awesome-icon icon="fa-solid fa-clock" /> Open Hours: {{openDay}} - {{closeDay}} - {{openHour}} - {{closeHour}}</div>
 
           <!-- colonna di destra  -->
           <div class="col d-flex gap-3 justify-content-end">
             <ul class="contact">
-              <li v-for="(link, i) in headerLinks"  :key="i"><a :href="link.href"><font-awesome-icon :icon="link.icon" /> {{link.text}}</a></li>
+              <li v-for="(link, i) in headerLinks"  :key="i" class="paragraph">
+                <a :href="link.href"><font-awesome-icon :icon="link.icon" /> {{link.text}}</a>
+              </li>
             </ul>
           </div>
         </div>
