@@ -46,6 +46,10 @@ export default {
             font-weight: 900;
             white-space: nowrap;
         }
+
+        .paragraph {
+            font-size: 18px;
+        }
     }
 }
 </style>

@@ -38,7 +38,7 @@
         <div class="col-6 footer-paragraph">
           Enjoy the low price. We are tracking any intention of piracy
         </div>
-        <div class="col-6 text-end footer-paragraph">
+        <div class="col-6 footer-paragraph text-end">
           2020 NEXGEN is Proudly Powered by
           <span class="green-text">Codings</span>.
         </div>

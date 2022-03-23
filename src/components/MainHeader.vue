@@ -6,7 +6,7 @@
           <div class="col paragraph"><font-awesome-icon icon="fa-solid fa-clock" /> Open Hours: {{openDay}} - {{closeDay}} - {{openHour}} - {{closeHour}}</div>
 
           <!-- colonna di destra  -->
-          <div class="col d-flex gap-3 justify-content-end">
+          <div class="col d-flex justify-content-end gap-3">
             <ul class="contact">
               <li v-for="(link, i) in headerLinks"  :key="i" class="paragraph">
                 <a :href="link.href"><font-awesome-icon :icon="link.icon" /> {{link.text}}</a>

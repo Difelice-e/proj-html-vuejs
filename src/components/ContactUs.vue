@@ -5,7 +5,7 @@
               <div class="col-8">
                   <!-- titolo sezione  -->
                   <span class="pre-title">Send a message</span>
-                  <h4 class="section-title my-3">Get in <span class="colored-span">Touch</span></h4>
+                  <h4 class="section-title mb-3">Get in <span class="colored-span">Touch</span></h4>
                   <p class="paragraph mb-5">We will respond to your message as soon as possibile</p>
                   
                   <!-- form invio messaggi  -->
