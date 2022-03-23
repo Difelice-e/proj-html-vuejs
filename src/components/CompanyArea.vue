@@ -1,14 +1,14 @@
 <template>
   <section class="company-area d-flex align-items-center py-5">
     <div class="container py-5">
-      <div class="row ">
+      <div class="row">
         <div class="col-6">
           <div class="row">
             <!-- sezione descrittiva  -->
             <div class="col-12">
-              <span class="green-text span-title">about the network</span>
+              <span class="span-title green-text">about the network</span>
               <h4 class="title my-3"><span class="span-bg">The</span> Company</h4>
-              <p class="mb-5 info">
+              <p class="info mb-5">
                 For 12 years we have been providing audit and warranty,
                 financial advice, risk advice, taxes and related services to
                 select clients.

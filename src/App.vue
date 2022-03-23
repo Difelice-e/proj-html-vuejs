@@ -6,6 +6,8 @@
       <MainJumbo />
       <BusinessArea />
       <CompanyArea />
+      <ProjectsArea />
+      <ResultsArea />
     </main>
   </div>
 </template>
@@ -15,6 +17,8 @@ import MainHeader from "./components/MainHeader.vue";
 import MainJumbo from "./components/MainJumbo.vue";
 import BusinessArea from "./components/BusinessArea.vue";
 import CompanyArea from "./components/CompanyArea.vue";
+import ProjectsArea from "./components/ProjectsArea.vue";
+import ResultsArea from "./components/ResultsArea.vue";
 
 export default {
   name: "App",
@@ -23,6 +27,8 @@ export default {
     MainJumbo,
     BusinessArea,
     CompanyArea,
+    ProjectsArea,
+    ResultsArea
   },
 };
 </script>

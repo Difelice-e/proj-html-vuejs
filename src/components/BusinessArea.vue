@@ -1,13 +1,13 @@
 <template>
-  <section class="py-5 business-area">
+  <section class="business-area py-5">
     <div class="container py-5">
       <div class="row">
         <!-- sezione descrittiva  -->
         <div class="col-12">
-          <span class="green-text span-title">our business area</span>
-          <h3 class="my-3 title">Excellence in <span class="colored-span">Services</span></h3>
+          <span class="span-title green-text">our business area</span>
+          <h3 class="title my-3">Excellence in <span class="colored-span">Services</span></h3>
           <div class="d-flex justify-content-between align-items-center gap-3">
-            <p class="grey-text info">
+            <p class="info gray-text">
               We are leaders in providing consultancy services with a set of
               cutting-edge technologies and a team of experienced and renowned
               professionals. These are some options that you can hire
@@ -22,8 +22,8 @@
             <div  class="col-10">
               <div>
                 <img :src="card.img" class="card_image mb-3" alt="" />
-                <h4 class="mb-3 card-title">{{card.title}}</h4>
-                <p class="grey-text card-info">{{card.info}}</p>
+                <h4 class="card-title mb-3">{{card.title}}</h4>
+                <p class="card-info grey-text">{{card.info}}</p>
               </div>
             </div>
             <div class="col-2">
