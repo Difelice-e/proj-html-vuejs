@@ -19,13 +19,14 @@ import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import { faLock } from '@fortawesome/free-solid-svg-icons'
 import { faMedal } from '@fortawesome/free-solid-svg-icons'
 import { faPenToSquare } from '@fortawesome/free-solid-svg-icons'
-import { faGraduationCap } from '@fortawesome/free-solid-svg-icons';
+import { faGraduationCap } from '@fortawesome/free-solid-svg-icons'
+import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
 
 /* import font awesome icon component */
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 /* add icons to the library */
-library.add(faClock, faPhone, faEnvelope, faTwitter, faFacebookF, faLinkedinIn, faArrowRight, faLock, faMedal, faPenToSquare, faGraduationCap)
+library.add(faClock, faPhone, faEnvelope, faTwitter, faFacebookF, faLinkedinIn, faArrowRight, faLock, faMedal, faPenToSquare, faGraduationCap, faLocationDot)
 
 /* add font awesome icon component */
 Vue.component('font-awesome-icon', FontAwesomeIcon)

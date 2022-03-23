@@ -8,6 +8,8 @@
       <CompanyArea />
       <ProjectsArea />
       <ResultsArea />
+      <ContactUs />
+      <MainFooter />
     </main>
   </div>
 </template>
@@ -19,6 +21,9 @@ import BusinessArea from "./components/BusinessArea.vue";
 import CompanyArea from "./components/CompanyArea.vue";
 import ProjectsArea from "./components/ProjectsArea.vue";
 import ResultsArea from "./components/ResultsArea.vue";
+import ContactUs from "./components/ContactUs.vue";
+import MainFooter from "./components/MainFooter.vue";
+
 
 export default {
   name: "App",
@@ -28,7 +33,9 @@ export default {
     BusinessArea,
     CompanyArea,
     ProjectsArea,
-    ResultsArea
+    ResultsArea,
+    ContactUs,
+    MainFooter
   },
 };
 </script>
