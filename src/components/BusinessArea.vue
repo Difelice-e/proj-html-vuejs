@@ -84,8 +84,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import '../assets/scss/palette.scss';
 .business-area {
-  background-color: var(--graynurse);
+  background-color: $graynurse;
 
   .title {
     font-size: 29px;
@@ -97,7 +98,7 @@ export default {
   }
 
   .business-card {
-    background-color: var(--white);
+    background-color: white;
     border-radius: 15px;
 
     .card_image {
@@ -115,7 +116,7 @@ export default {
     }
     
     .fa-arrow-right {
-      color: var(--bluelagoon);
+      color: $bluelagoon;
       font-size: 1.5rem;
     }
   }

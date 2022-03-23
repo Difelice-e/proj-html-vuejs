@@ -57,9 +57,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import '../assets/scss/palette.scss';
 header {
-  background-color: var(--bigstone);
-  color: var(--pumice);
+  background-color: $bigstone;
+  color: $pumice;
   font-size: 11px;
 
   .contact {

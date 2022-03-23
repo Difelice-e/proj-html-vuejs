@@ -3,6 +3,7 @@
     <div class="container">
       <div class="row">
         <div class="col-3 grey-text">
+          <!-- logo e contatti  -->
           <img src="../assets/svgs/svg-7.svg" class="logo" alt="" />
           <p class="py-3">
             A Functional HTML template for Corporate & Business
@@ -16,6 +17,7 @@
           <button class="button outline-dark-button mt-2">Get in touch</button>
         </div>
 
+        <!-- link del footer  -->
         <div v-for="(footerTitle, i) in footerLinks" :key="i" class="col-3">
           <div class="footer-links">
             <h4 class="link-title mb-4">{{ footerTitle.title }}</h4>
@@ -31,7 +33,8 @@
             </ul>
           </div>
         </div>
-
+        
+        <!-- credits e copyright  -->
         <div class="col-6 grey-text">
           Enjoy the low price. We are tracking any intention of piracy
         </div>
@@ -157,8 +160,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import '../assets/scss/palette.scss';
 footer {
-  background-color: #111117;
+  background-color: $woodsmoke;
   color: white;
 
   .logo {

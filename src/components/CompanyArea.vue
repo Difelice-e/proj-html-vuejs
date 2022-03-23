@@ -68,6 +68,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import '../assets/scss/palette.scss';
 .company-area {
   background-color: black;
   background-image: url("../assets/images/about-4.jpg");

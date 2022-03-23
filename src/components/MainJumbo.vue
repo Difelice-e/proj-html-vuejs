@@ -30,6 +30,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import '../assets/scss/palette.scss';
 .jumbotron {
     background-image: url("../assets/images/bg-parallax.png"), url("../assets/images/bg-2-jumbo.png");
     min-height: 866px;

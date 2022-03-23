@@ -70,6 +70,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import '../assets/scss/palette.scss';
 .contact-us {
 
     .span-bg {
@@ -81,7 +82,7 @@ export default {
         width: 100%;
         margin-bottom: 24px;
         padding: 8px;
-        background-color: var(--graynurse);
+        background-color: $graynurse;
         border: none;
         border-radius: 5px;
     }
@@ -98,7 +99,7 @@ export default {
         width: 100%;
         height: 150px;
         padding: 8px;
-        background-color: var(--graynurse);
+        background-color: $graynurse;
         border: none;
         border-radius: 5px;
     }
