@@ -72,13 +72,9 @@ export default {
         margin-bottom: 370px;
     }
 
-    ul {
-        list-style: none;
-
         .sponsor-img {
             height: 30px;
             filter: invert(1);
         }
-    }
 }
 </style>

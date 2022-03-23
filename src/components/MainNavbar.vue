@@ -11,7 +11,9 @@
         <div class="col">
           <ul class="d-flex align-items-center justify-content-end gap-3">
             <!-- link dinamici  -->
-            <li v-for="(link, i) in navLinks" :key="i"><a :href="link.href">{{link.name}}</a></li>
+            <li v-for="(link, i) in navLinks" :key="i" class="paragraph text-uppercase">
+              <a :href="link.href">{{link.name}}</a>
+            </li>
             <!-- bottone statico -->
             <li>
               <button class="button primary-button">get in touch</button>
@@ -65,16 +67,6 @@ nav {
 
   .logo {
     width: 150px;
-  }
-
-  ul {
-    list-style: none;
-    text-transform: uppercase;
-
-    a {
-      text-decoration: none;
-      color: currentColor;
-    }
   }
 }
 </style>

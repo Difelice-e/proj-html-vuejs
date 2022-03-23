@@ -170,7 +170,6 @@ footer {
   }
 
   ul {
-    list-style: none;
     padding-left: 0;
 
     li {
@@ -190,11 +189,6 @@ footer {
 
     .link-title {
       font-weight: 700;
-    }
-
-    a {
-      text-decoration: none;
-      color: currentColor;
     }
   }
 }

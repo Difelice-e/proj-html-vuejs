@@ -7,9 +7,13 @@ img {
     display: block;
 }
   
-a {
-    text-decoration: none;
-    color: currentColor;
+ul {
+    list-style: none;
+
+    a {
+        text-decoration: none;
+        color: currentColor;
+    }
 }
   
   // bottoni 
@@ -56,7 +60,7 @@ a {
 
 .colored-span {
     color: $bluelagoon;
-    background-color: rgba($seanymph,0.25);
+    background-color: rgba($seanymph,0.3);
     padding: 2px 8px;
     border-radius: 5px;
 
@@ -70,24 +74,14 @@ a {
     color: #979797;
 }
 
+.subtitle {
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+}
+
 
 // common da aggiungere 
-
-// DIV ROSSO: PARAGRAFI
-// FONT-SIZE: 16px
-// COLORE: #979797
-// font-weight: regular
-
-// DIV ROSA: TESTI 
-// FONT-SIZE: 20PX
-// COLORE: BIANCO
-// FONT-WEIGHT: BOLD
-
-// DIV GIALLO: ELENCHI
-// FONT-SIZE: 16PX
-// COLORE: #979797
-
-// BOTTONI GIA SETTATI (VEDI CSS)
 
 // SEZIONE COMPANY:
 // ICONE COLORE: 0FA8A4
@@ -100,7 +94,6 @@ a {
 // FONT-SIZE: 20PX
 
 // SPONSOR ALTEZZA 30PX
-
 
 // SEZIONE SEND A MESSAGE:
 // ICONE ALTEZZA 50PX

@@ -16,7 +16,7 @@
               <div class="row">
                 <!-- bullet point  -->
                 <div class="col-6 mb-3" v-for="(point, i) in companyPoints" :key="i">
-                  <h5 class="point-title"><span class="green-text"><font-awesome-icon :icon="point.icon" /> </span> {{point.title}}</h5>
+                  <h5 class="subtitle"><span class="icon"><font-awesome-icon :icon="point.icon" /> </span> {{point.title}}</h5>
                   <p class="paragraph">
                     {{point.info}}
                   </p>
@@ -77,10 +77,10 @@ export default {
   background-position: right;
   min-height: 550px;
 
-  .point-title {
-    font-size: 17px;
-    font-weight: 800;
-    color: white;
+  .icon {
+    height: 30px;
+    color: #0FA8A4;
+    margin-right: 5px;
   }
 }
 </style>

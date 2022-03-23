@@ -10,7 +10,8 @@
                   <ul class="d-flex justify-content-center gap-3">
                       <li v-for="(category, i) in categories" 
                       :key="i"
-                      :class="i === 0 ? 'active' : ''">
+                      :class="i === 0 ? 'active' : ''"
+                      class="paragraph text-uppercase">
                         {{category}}
                       </li>
                   </ul>
@@ -20,7 +21,7 @@
               <div v-for="(card,i) in cards" :key="i" class="col-4 p-3">
                   <div class="card-wrapper d-flex align-items-end text-center">
                       <img class="card-img" :src="card.img" alt="">
-                      <h5 class="card-title">{{card.title}}</h5>
+                      <h5 class="subtitle">{{card.title}}</h5>
                   </div>
               </div>
           </div>
@@ -67,20 +68,17 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import '../assets/scss/palette.scss';
 .projects {
-    
-    ul {
-        list-style: none;
 
         li {
             padding: 5px 8px;
-            text-transform: uppercase;
 
             &.active {
-                background-color: rgba(#038484,0.3);
+                background-color: rgba($seanymph,0.25);
+                color: $seanymph;
             }
         }
-    }
 
     .card-wrapper {
         position: relative;
@@ -98,11 +96,11 @@ export default {
             position: absolute;
         }
 
-        .card-title {
-            color: white;
+        .subtitle {
             position: absolute;
-            bottom: 10px;
+            bottom: 30px;
             z-index: 99;
+            padding: 0 20px;
         }
     }
 }

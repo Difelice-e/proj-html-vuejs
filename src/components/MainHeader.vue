@@ -65,15 +65,9 @@ header {
 
   .contact {
   display: contents;
-  list-style: none;
    
     li {
       white-space: nowrap;
-
-      a {
-      text-decoration: none;
-      color: currentColor;
-      }
     }
   }
 }
