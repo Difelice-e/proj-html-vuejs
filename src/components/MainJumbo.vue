@@ -8,7 +8,7 @@
               <div class="col-4 text-center">
                   <!-- titolo della sezione  -->
                   <h1 class="jumbo-title mb-3">Ready <span class="colored-span">Team</span></h1>
-                  <p class="jumbo-info grey-text mb-4">No matter what your company needs, we will be ready to assist you in the best possible way.</p>
+                  <p class="paragraph mb-4">No matter what your company needs, we will be ready to assist you in the best possible way.</p>
                   <div class="d-flex justify-content-center gap-3">
                       <button class="button primary-button">get in touch</button>
                       <button class="button outline-button">read more</button>
@@ -42,13 +42,9 @@ export default {
         align-items: center;
         
         .jumbo-title {
-            font-size: 43px;
-            font-weight: 800;
+            font-size: 48px;
+            font-weight: 900;
             white-space: nowrap;
-        }
-
-        .jumbo-info {
-            font-size: 12px;
         }
     }
 }

@@ -5,16 +5,16 @@
         <div class="col-3 grey-text">
           <!-- logo e contatti  -->
           <img src="../assets/svgs/svg-7.svg" class="logo" alt="" />
-          <p class="py-3">
+          <p class="paragraph py-3">
             A Functional HTML template for Corporate & Business
           </p>
           <ul>
-            <li v-for="(contact, i) in contacts" :key="i">
+            <li v-for="(contact, i) in contacts" :key="i" class="paragraph">
               <font-awesome-icon class="icon" :icon="contact.icon" />
               {{ contact.text }}
             </li>
           </ul>
-          <button class="button outline-dark-button mt-2">Get in touch</button>
+          <button class="button outline-button dark mt-2">Get in touch</button>
         </div>
 
         <!-- link del footer  -->
@@ -22,7 +22,7 @@
           <div class="footer-links">
             <h4 class="link-title mb-4">{{ footerTitle.title }}</h4>
             <ul>
-              <li v-for="(link, i) in footerTitle.links" :key="i" class="grey-text">
+              <li v-for="(link, i) in footerTitle.links" :key="i" class="paragraph">
                 <a :href="link.href"
                   ><font-awesome-icon
                     class="icon"
@@ -35,10 +35,10 @@
         </div>
         
         <!-- credits e copyright  -->
-        <div class="col-6 grey-text">
+        <div class="col-6 paragraph">
           Enjoy the low price. We are tracking any intention of piracy
         </div>
-        <div class="col-6 text-end grey-text">
+        <div class="col-6 text-end paragraph">
           2020 NEXGEN is Proudly Powered by
           <span class="green-text">Codings</span>.
         </div>

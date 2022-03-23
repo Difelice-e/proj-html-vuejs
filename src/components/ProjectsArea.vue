@@ -4,8 +4,8 @@
           <div class="row">
               <div class="col-12 text-center">
                   <!-- titolo sezione  -->
-                  <span class="span-title green-text">We do more for everyone</span>
-                  <h4 class="title my-3">Actions & <span class="span-bg">Projects</span></h4>
+                  <span class="pre-title">We do more for everyone</span>
+                  <h4 class="section-title my-3">Actions & <span class="colored-span">Projects</span></h4>
                   <!-- lista categorie   -->
                   <ul class="d-flex justify-content-center gap-3">
                       <li v-for="(category, i) in categories" 
@@ -68,10 +68,6 @@ export default {
 
 <style lang="scss" scoped>
 .projects {
-    .span-bg {
-    background-color: rgba(#038484,0.3);
-    padding: 5px;
-  }
     
     ul {
         list-style: none;

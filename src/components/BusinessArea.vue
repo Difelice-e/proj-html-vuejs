@@ -5,12 +5,12 @@
         
         <div class="col-12">
           <!-- titolo sezione  -->
-          <span class="span-title green-text">our business area</span>
-          <h3 class="title my-3">Excellence in <span class="colored-span">Services</span></h3>
+          <span class="pre-title">our business area</span>
+          <h3 class="section-title my-3">Excellence in <span class="colored-span">Services</span></h3>
 
           <!-- sezione descrittiva  -->
           <div class="d-flex justify-content-between align-items-center gap-3">
-            <p class="info gray-text">
+            <p class="paragraph">
               We are leaders in providing consultancy services with a set of
               cutting-edge technologies and a team of experienced and renowned
               professionals. These are some options that you can hire
@@ -26,7 +26,7 @@
               <div>
                 <img :src="card.img" class="card_image mb-3" alt="" />
                 <h4 class="card-title mb-3">{{card.title}}</h4>
-                <p class="card-info grey-text">{{card.info}}</p>
+                <p class="paragraph">{{card.info}}</p>
               </div>
             </div>
             <div class="col-2">
@@ -88,15 +88,6 @@ export default {
 .business-area {
   background-color: $graynurse;
 
-  .title {
-    font-size: 29px;
-    font-weight: 800;
-  }
-
-  .info {
-    font-size: 11px;
-  }
-
   .business-card {
     background-color: white;
     border-radius: 15px;
@@ -109,10 +100,6 @@ export default {
     .card-title {
       font-size: 15px;
       font-weight: 700;
-    }
-
-    .card-info {
-      font-size: 11px;
     }
     
     .fa-arrow-right {

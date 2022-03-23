@@ -6,9 +6,9 @@
           <div class="row">
             <!-- sezione descrittiva  -->
             <div class="col-12">
-              <span class="span-title green-text">about the network</span>
-              <h4 class="title my-3"><span class="span-bg">The</span> Company</h4>
-              <p class="info mb-5">
+              <span class="pre-title">about the network</span>
+              <h4 class="section-title dark my-3"><span class="colored-span dark">The</span> Company</h4>
+              <p class="paragraph mb-5">
                 For 12 years we have been providing audit and warranty,
                 financial advice, risk advice, taxes and related services to
                 select clients.
@@ -17,7 +17,7 @@
                 <!-- bullet point  -->
                 <div class="col-6 mb-3" v-for="(point, i) in companyPoints" :key="i">
                   <h5 class="point-title"><span class="green-text"><font-awesome-icon :icon="point.icon" /> </span> {{point.title}}</h5>
-                  <p class="point-info">
+                  <p class="paragraph">
                     {{point.info}}
                   </p>
                 </div>
@@ -25,7 +25,7 @@
                 <!-- bottoni  -->
                 <div class="col-12 d-flex gap-3">
                     <button class="button primary-button">Get in touch</button>
-                    <button class="button outline-dark-button">Read More</button>
+                    <button class="button outline-button dark">Read More</button>
                 </div>
               </div>
             </div>
@@ -76,22 +76,6 @@ export default {
   background-repeat: no-repeat;
   background-position: right;
   min-height: 550px;
-
-  .span-bg {
-    background-color: rgba(#038484,0.3);
-    padding: 5px;
-  }
-
-  .title {
-      color: white;
-      font-size: 30px;
-      font-weight: 700;
-  }
-
-  .info, .point-info {
-    font-size: 11px;
-    color: var(--pumice);
-  }
 
   .point-title {
     font-size: 17px;

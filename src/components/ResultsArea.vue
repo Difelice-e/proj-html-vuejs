@@ -4,8 +4,8 @@
           <div class="row">
               <div class="col-12 text-center mb-5">
                   <!-- titolo sezione -->
-                  <span class="span-title green-text">What are we doing</span>
-                  <h4 class="title mt-3 mb-5"><span class="span-bg">Results</span> in Number</h4>
+                  <span class="pre-title">What are we doing</span>
+                  <h4 class="section-title dark mt-3 mb-5"><span class="colored-span dark">Results</span> in Number</h4>
               </div>
               
               <!-- numeri dell'azienda  -->
@@ -66,17 +66,6 @@ export default {
     background-image: url('../assets/images/bg-7.jpg');
     background-size: contain;
     background-position: top;
-
-    .span-bg {
-    background-color: rgba(#038484,0.3);
-    padding: 5px;
-  }
-
-    .title {
-        color: white;
-        font-weight: 700;
-        font-size: 29px;
-    }
 
     .number {
         color: white;

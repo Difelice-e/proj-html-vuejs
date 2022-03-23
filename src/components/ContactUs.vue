@@ -4,9 +4,9 @@
           <div class="row">
               <div class="col-8">
                   <!-- titolo sezione  -->
-                  <span class="span-title green-text">Send a message</span>
-                  <h4 class="title my-3">Get in<span class="span-bg">Touch</span></h4>
-                  <p>We will respond to your message as soon as possibile</p>
+                  <span class="pre-title">Send a message</span>
+                  <h4 class="section-title my-3">Get in <span class="colored-span">Touch</span></h4>
+                  <p class="paragraph">We will respond to your message as soon as possibile</p>
                   
                   <!-- form invio messaggi  -->
                   <div class="row">
@@ -32,7 +32,7 @@
               <!-- colonna di destra con contatti -->
               <div class="col-4 ps-5">
                   <h5>Example Inc.</h5>
-                  <p>
+                  <p class="paragraph">
                      Lorem ipsum dolor sit amet consectetur adipisicing elit.<br><br>
                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   </p>
@@ -72,11 +72,6 @@ export default {
 <style lang="scss" scoped>
 @import '../assets/scss/palette.scss';
 .contact-us {
-
-    .span-bg {
-        background-color: rgba(#038484,0.3);
-        padding: 5px;
-    }
 
     input {
         width: 100%;

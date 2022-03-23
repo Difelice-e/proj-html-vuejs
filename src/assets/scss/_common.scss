@@ -1,60 +1,112 @@
 @import './_palette.scss';
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 // common
 img {
     max-width: 100%;
     display: block;
-  }
+}
   
-  a {
+a {
     text-decoration: none;
     color: currentColor;
-  }
-  
-  .colored-span {
-    color: $bluelagoon;
-    background-color: rgba(#038484,0.2);
-    padding: 5px;
-  }
+}
   
   // bottoni 
-  .button {
+.button {
     text-transform: uppercase;
     padding: 8px 15px;
     white-space: nowrap;
     font-size: 12px;
     border-radius: 5px;
-  }
+}
   
-  .primary-button {
+.primary-button {
     background-color: $bluelagoon;
     color: white;
     border: 1px solid $bluelagoon;
-  }
+}
   
-  .outline-button {
+.outline-button {
     border: 1px solid $bluelagoon;
     color: $bluelagoon;
     background-color: transparent;
-  }
-  
-  .outline-dark-button {
-    border: 1px solid $bluelagoon;
-    color: white;
-    background-color: transparent;
-  }
+
+    &.dark {
+        color: white;
+    }
+}
   
   // testi 
-  .green-text {
-    color: $fountainblue;
-  }
-  
-  .grey-text {
-    color: $pumice;
-  }
-  
-  .span-title {
-    font-size: 11px;
+.pre-title {
+    font-size: 14px;
     text-transform: uppercase;
     font-weight: 700;
-  }
+    color: #0FA8A4;
+}
+
+.section-title {
+    font-size: 35px;
+    font-weight: 900;
+
+    &.dark {
+        color: white;
+    }
+}
+
+.colored-span {
+    color: $bluelagoon;
+    background-color: rgba($seanymph,0.25);
+    padding: 2px 8px;
+    border-radius: 5px;
+
+    &.dark {
+        color: white;
+    }
+}
+
+.paragraph {
+    font-size: 16px;
+    color: #979797;
+}
+
+
+// common da aggiungere 
+
+// DIV ROSSO: PARAGRAFI
+// FONT-SIZE: 16px
+// COLORE: #979797
+// font-weight: regular
+
+// DIV ROSA: TESTI 
+// FONT-SIZE: 20PX
+// COLORE: BIANCO
+// FONT-WEIGHT: BOLD
+
+// DIV GIALLO: ELENCHI
+// FONT-SIZE: 16PX
+// COLORE: #979797
+
+// BOTTONI GIA SETTATI (VEDI CSS)
+
+// SEZIONE COMPANY:
+// ICONE COLORE: 0FA8A4
+// ALTEZZA ICONE 30PX
+
+// SEZIONE NUMERI: 
+// NUMERI COLORE: #979797
+// FONT-SIZE: 35PX
+// SCRITTE COLORE: BIANCO
+// FONT-SIZE: 20PX
+
+// SPONSOR ALTEZZA 30PX
+
+
+// SEZIONE SEND A MESSAGE:
+// ICONE ALTEZZA 50PX
+// FONT-SIZE 18PX
+// COLORE: BLUE LAGOON
+// BG: TRASPARENZA LAGOON?
+
+// FOOTER:
+// LINK FINALI FONT-SIZE: 14PX
