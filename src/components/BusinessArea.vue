@@ -15,7 +15,7 @@
               cutting-edge technologies and a team of experienced and renowned
               professionals. These are some options that you can hire
             </p>
-            <button class="button primary-button">See All</button>
+            <button class="button outline-button">See All</button>
           </div>
         </div>
 
@@ -30,8 +30,8 @@
               </div>
             </div>
             <div class="col-2">
-              <div>
-                  <font-awesome-icon icon="fa-solid fa-arrow-right" class="green-text"/>
+              <div class="service-link d-flex justify-content-center align-items-center">
+                  <font-awesome-icon icon="fa-solid fa-arrow-right"/>
               </div>
             </div>
           </div>
@@ -91,6 +91,24 @@ export default {
     background-color: white;
     border-radius: 15px;
 
+    .service-link {
+      width: 40px;
+      height: 40px;
+      color: #0FA8A4;
+
+      .fa-arrow-right {
+        font-size: 1.5rem;
+        opacity: 0.6;
+        
+      }
+    }
+
+    &:hover .service-link {
+      background-color: rgba($seanymph,0.3);
+      border-radius: 50%;
+      color: #097470;
+    }
+
     .card_image {
       height: 43px;
       filter: invert(31%) sepia(92%) saturate(4156%) hue-rotate(165deg) brightness(92%) contrast(98%)
@@ -101,10 +119,8 @@ export default {
       font-weight: 700;
     }
     
-    .fa-arrow-right {
-      font-size: 1.5rem;
-      opacity: 0.6;
-    }
+    
+    
   }
 }
 </style>

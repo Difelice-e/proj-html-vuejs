@@ -16,7 +16,7 @@
             </li>
             <!-- bottone statico -->
             <li>
-              <button class="button primary-button">get in touch</button>
+              <button class="button outline-button">get in touch</button>
             </li>
           </ul>
         </div>

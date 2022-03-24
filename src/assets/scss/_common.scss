@@ -17,6 +17,10 @@ ul {
     a {
         text-decoration: none;
         color: currentColor;
+
+        &:hover {
+            color: #0FA8A4;
+        }
     }
 }
   
@@ -29,18 +33,17 @@ ul {
     border-radius: 5px;
 }
   
-.primary-button {
-    background-color: $bluelagoon;
-    color: white;
-    border: 1px solid $bluelagoon;
-}
-  
 .outline-button {
     border: 1px solid $bluelagoon;
     color: $bluelagoon;
     background-color: transparent;
 
     &.dark {
+        color: white;
+    }
+
+    &:hover {
+        background-color: $bluelagoon;
         color: white;
     }
 }

@@ -24,7 +24,7 @@
                       <!-- bottoni di invio  -->
                       <div class="col-12">
                           <textarea type="text" placeholder="Message" class="mb-3"></textarea>
-                          <button class="button primary-button">Send</button>
+                          <button class="button outline-button">Send</button>
                       </div>
                   </div>
               </div>

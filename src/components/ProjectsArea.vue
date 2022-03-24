@@ -20,8 +20,12 @@
               <!-- sezione delle card  -->
               <div v-for="(card,i) in cards" :key="i" class="col-4 p-3">
                   <div class="card-wrapper d-flex align-items-end text-center">
+                      <font-awesome-icon class="hover-visible card-link" icon="fa-solid fa-arrow-right"/>
                       <img class="card-img" :src="card.img" alt="">
-                      <h5 class="subtitle">{{card.title}}</h5>
+                      <div class="card-info">
+                          <h5 class="subtitle">{{card.title}}</h5>
+                          <p class="hover-visible card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                      </div>
                   </div>
               </div>
           </div>
@@ -96,12 +100,37 @@ export default {
             position: absolute;
         }
 
-        .subtitle {
+        &:hover .hover-visible {
+            display: block;
+        }
+
+        .hover-visible {
+            display: none;
+        }
+
+        .card-link {
+            color: white;
+            font-weight: 900;
+            font-size: 25px;
             position: absolute;
-            bottom: 30px;
+            top: 30px;
+            right: 30px;
+            z-index: 999;
+        }
+
+        .card-info {
+            position: absolute;
+            bottom: 20px;
             z-index: 99;
             padding: 0 20px;
+
+            .card-text {
+            color: white;
+            font-size: 16px;
+            }
         }
+
+        
     }
 }
 </style>
