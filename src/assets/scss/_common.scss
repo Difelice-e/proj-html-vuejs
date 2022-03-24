@@ -19,7 +19,7 @@ ul {
         color: currentColor;
 
         &:hover {
-            color: #0FA8A4;
+            color: $lightlagoon;
         }
     }
 }
@@ -39,12 +39,12 @@ ul {
     background-color: transparent;
 
     &.dark {
-        color: white;
+        color: $primary;
     }
 
     &:hover {
         background-color: $bluelagoon;
-        color: white;
+        color: $primary;
     }
 }
   
@@ -53,7 +53,7 @@ ul {
     font-size: 14px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #0FA8A4;
+    color: $lightlagoon;
     display: block;
     margin-bottom: 30px;
 }
@@ -63,7 +63,7 @@ ul {
     font-weight: 900;
 
     &.dark {
-        color: white;
+        color: $primary;
     }
 }
 
@@ -74,13 +74,13 @@ ul {
     border-radius: 5px;
 
     &.dark {
-        color: white;
+        color: $primary;
     }
 }
 
 .paragraph {
     font-size: 16px;
-    color: #979797;
+    color: $lightgrey;
 }
 
 .list {
@@ -91,10 +91,10 @@ ul {
 
 .subtitle {
     font-size: 20px;
-    color: white;
+    color: $primary;
     font-weight: 700;
 }
 
 .green-text {
-    color: #0FA8A4;
+    color: $lightlagoon;
 }

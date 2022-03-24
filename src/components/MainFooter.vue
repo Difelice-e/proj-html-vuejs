@@ -163,7 +163,7 @@ export default {
 @import '../assets/scss/palette.scss';
 footer {
   background-color: $woodsmoke;
-  color: white;
+  color: $primary;
 
   ul {
     padding-left: 0;
@@ -179,7 +179,7 @@ footer {
 
   .footer-links {
     margin-bottom: 250px;
-    background-color: #19191f;
+    background-color: $lightsmoke;
     padding: 20px;
     border-radius: 15px;
 
@@ -190,7 +190,7 @@ footer {
 
   .footer-paragraph {
       font-size: 14px;
-      color: #979797;
+      color: $lightgrey;
   }
 }
 </style>

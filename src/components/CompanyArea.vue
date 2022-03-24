@@ -73,7 +73,7 @@ export default {
 <style lang="scss" scoped>
 @import '../assets/scss/palette.scss';
 .company-area {
-  background-color: black;
+  background-color: $secondary;
   background-image: url("../assets/images/about-4.jpg");
   background-size: 50%;
   background-repeat: no-repeat;
@@ -83,7 +83,7 @@ export default {
 
   .icon {
     height: 30px;
-    color: #0FA8A4;
+    color: $lightlagoon;
     margin-right: 5px;
   }
 

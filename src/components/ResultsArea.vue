@@ -62,20 +62,21 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import '../assets/scss/palette.scss';
 .results {
     background-image: url('../assets/images/bg-7.jpg');
     background-size: contain;
     background-position: top;
 
     .number {
-        color: white;
+        color: $primary;
         font-size: 20px;
         margin-bottom: 370px;
         line-height: 40px;
 
         .counter {
             font-size: 35px;
-            color: #0FA8A4;
+            color: $lightlagoon;
         }
     }
 

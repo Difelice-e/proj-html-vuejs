@@ -96,20 +96,20 @@ export default {
             bottom: 0;
             left: 0;
             right: 0;
-            background-color: rgba(black, 0.5);
+            background-color: rgba($secondary, 0.5);
             position: absolute;
-        }
-
-        &:hover .hover-visible {
-            display: block;
         }
 
         .hover-visible {
             display: none;
         }
 
+        &:hover .hover-visible {
+            display: block;
+        }
+
         .card-link {
-            color: white;
+            color: $primary;
             font-weight: 900;
             font-size: 25px;
             position: absolute;
@@ -125,7 +125,7 @@ export default {
             padding: 0 20px;
 
             .card-text {
-            color: white;
+            color: $primary;
             font-size: 16px;
             }
         }

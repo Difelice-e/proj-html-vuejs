@@ -88,13 +88,13 @@ export default {
   background-color: $graynurse;
 
   .business-card {
-    background-color: white;
+    background-color: $primary;
     border-radius: 15px;
 
     .service-link {
       width: 40px;
       height: 40px;
-      color: #0FA8A4;
+      color: $lightlagoon;
 
       .fa-arrow-right {
         font-size: 1.5rem;
@@ -106,7 +106,7 @@ export default {
     &:hover .service-link {
       background-color: rgba($seanymph,0.3);
       border-radius: 50%;
-      color: #097470;
+      color: $darklagoon;
     }
 
     .card_image {
@@ -118,9 +118,6 @@ export default {
       font-size: 15px;
       font-weight: 700;
     }
-    
-    
-    
   }
 }
 </style>
