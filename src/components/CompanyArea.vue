@@ -1,5 +1,5 @@
 <template>
-  <section class="company-area d-flex align-items-center py-5">
+  <section class="company-area d-flex align-items-center py-5" id="company-area">
     <div class="container py-5">
       <div class="row">
         <div class="col-6">

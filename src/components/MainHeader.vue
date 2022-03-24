@@ -1,5 +1,5 @@
 <template>
-  <header class="py-2">
+  <header class="py-2" id="main-header">
       <div class="container">
         <div class="row align-items-center">
           <!-- colonna di sinistra  -->

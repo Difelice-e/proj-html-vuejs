@@ -35,23 +35,23 @@ export default {
       navLinks: [
         {
           name: 'Home',
-          href: '#',
+          href: '#main-header',
         },
         {
           name: 'Services',
-          href: '#',
+          href: '#business-area',
         },
         {
           name: 'About',
-          href: '#',
+          href: '#company-area',
         },
         {
           name: 'Projects',
-          href: '#',
+          href: '#projects-area',
         },
         {
           name: 'Results',
-          href: '#',
+          href: '#results-area',
         },
       ]
     }

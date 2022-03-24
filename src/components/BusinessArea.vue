@@ -1,5 +1,5 @@
 <template>
-  <section class="business-area py-5">
+  <section class="business-area py-5" id="business-area">
     <div class="container py-5">
       <div class="row">
         
