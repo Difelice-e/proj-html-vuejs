@@ -20,7 +20,7 @@
         </div>
 
         <!-- sezione delle card  -->
-        <div class="col-4 p-4" v-for="(card, i) in cardInfo" :key="i">
+        <div class="col-12 col-md-6 col-lg-4 p-4" v-for="(card, i) in cardInfo" :key="i">
           <div class="row business-card p-5">
             <div  class="col-10">
               <div>

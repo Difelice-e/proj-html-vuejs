@@ -2,7 +2,7 @@
   <footer class="py-5">
     <div class="container pt-5">
       <div class="row">
-        <div class="col-3 grey-text">
+        <div class="col-12 col-lg-3 grey-text">
           <!-- logo e contatti  -->
           <img src="../assets/svgs/svg-7.svg" class="logo" alt="" />
           <p class="paragraph py-3">
@@ -14,11 +14,11 @@
               {{ contact.text }}
             </li>
           </ul>
-          <button class="button outline-button dark mt-2">Get in touch</button>
+          <button class="button outline-button dark mt-lg-2 mb-5">Get in touch</button>
         </div>
 
         <!-- link del footer  -->
-        <div v-for="(footerTitle, i) in footerLinks" :key="i" class="col-3">
+        <div v-for="(footerTitle, i) in footerLinks" :key="i" class="col-4 col-lg-3">
           <div class="footer-links">
             <h4 class="link-title mb-4">{{ footerTitle.title }}</h4>
             <ul>

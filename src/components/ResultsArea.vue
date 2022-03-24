@@ -9,13 +9,13 @@
               </div>
               
               <!-- numeri dell'azienda  -->
-              <div v-for="(result,i) in results" :key="i" class="col-3 text-center">
-                  <h5 class="number"><span class="counter">{{result.number}}</span><br>{{result.title}}</h5>
+              <div v-for="(result,i) in results" :key="i" class="number col-6 col-md-3 text-center">
+                  <h5><span class="counter">{{result.number}}</span><br>{{result.title}}</h5>
               </div>
               
               <!-- sezione sponsor  -->
               <div class="col-12">
-                  <ul class="d-flex justify-content-between gap-5">
+                  <ul class="d-flex justify-content-between gap-5 flex-wrap">
                       <li v-for="(sponsorImg,i) in sponsor" :key="i">
                           <img class="sponsor-img" :src="sponsorImg" alt="">
                       </li>

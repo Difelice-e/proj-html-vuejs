@@ -5,7 +5,7 @@
           <MainNavbar />
           <div class="row justify-content-center">
               <!-- zona centrale del jumbo  -->
-              <div class="col-4 text-center">
+              <div class="col-10 col-md-6 col-lg-4 text-center">
                   <!-- titolo della sezione  -->
                   <h1 class="jumbo-title mb-3">Ready <span class="colored-span">Team</span></h1>
                   <p class="paragraph mb-4">No matter what your company needs, we will be ready to assist you in the best possible way.</p>

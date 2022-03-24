@@ -2,7 +2,7 @@
   <section class="contact-us py-5">
       <div class="container py-5">
           <div class="row">
-              <div class="col-8">
+              <div class="col-12 col-md-8 mb-5 mb-md-0">
                   <!-- titolo sezione  -->
                   <span class="pre-title">Send a message</span>
                   <h4 class="section-title mb-3">Get in <span class="colored-span">Touch</span></h4>
@@ -30,7 +30,7 @@
               </div>
               
               <!-- colonna di destra con contatti -->
-              <div class="col-4 ps-5">
+              <div class="col-12 col-md-4 ps-lg-5">
                   <h5 class="fw-bold">Example Inc.</h5>
                   <p class="paragraph mb-5">
                      Lorem ipsum dolor sit amet consectetur adipisicing elit.<br><br>

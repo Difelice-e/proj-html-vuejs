@@ -7,7 +7,7 @@
                   <span class="pre-title">We do more for everyone</span>
                   <h4 class="section-title mb-5">Actions & <span class="colored-span">Projects</span></h4>
                   <!-- lista categorie   -->
-                  <ul class="d-flex justify-content-center gap-3">
+                  <ul class="d-flex justify-content-center gap-1 gap-md-3 flex-wrap">
                       <li v-for="(category, i) in categories" 
                       :key="i"
                       :class="i === 0 ? 'active' : ''"
@@ -18,7 +18,7 @@
               </div>
 
               <!-- sezione delle card  -->
-              <div v-for="(card,i) in cards" :key="i" class="col-4 p-3">
+              <div v-for="(card,i) in cards" :key="i" class="col-12 col-md-6 col-lg-4 p-3">
                   <div class="card-wrapper d-flex align-items-end text-center">
                       <font-awesome-icon class="hover-visible card-link" icon="fa-solid fa-arrow-right"/>
                       <img class="card-img" :src="card.img" alt="">
@@ -78,7 +78,7 @@ export default {
     li {
         padding: 5px 8px;
 
-        &.active {
+        &:hover, &.active {
             background-color: rgba($seanymph,0.25);
             color: $seanymph;
         }

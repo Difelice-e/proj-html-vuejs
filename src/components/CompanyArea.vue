@@ -15,7 +15,7 @@
               </p>
               <div class="row">
                 <!-- bullet point  -->
-                <div class="col-6 mb-5" v-for="(point, i) in companyPoints" :key="i">
+                <div class="col-12 col-md-6 mb-5" v-for="(point, i) in companyPoints" :key="i">
                   <h5 class="subtitle"><span class="icon"><font-awesome-icon :icon="point.icon" /> </span> {{point.title}}</h5>
                   <p class="paragraph">
                     {{point.info}}

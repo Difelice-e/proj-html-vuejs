@@ -3,7 +3,7 @@
       <div class="container">
         <div class="row align-items-center">
           <!-- colonna di sinistra  -->
-          <div class="col paragraph"><font-awesome-icon icon="fa-solid fa-clock" /> Open Hours: {{openDay}} - {{closeDay}} - {{openHour}} - {{closeHour}}</div>
+          <div class="col paragraph d-none d-lg-block"><font-awesome-icon icon="fa-solid fa-clock" /> Open Hours: {{openDay}} - {{closeDay}} - {{openHour}} - {{closeHour}}</div>
 
           <!-- colonna di destra  -->
           <div class="col d-flex justify-content-end gap-3">

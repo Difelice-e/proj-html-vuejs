@@ -8,7 +8,7 @@
         </div>
 
         <!-- colonna di destra con link  -->
-        <div class="col">
+        <div class="col d-none d-md-block">
           <ul class="d-flex justify-content-end align-items-center gap-3">
             <!-- link dinamici  -->
             <li v-for="(link, i) in navLinks" :key="i" class="list">
@@ -19,6 +19,9 @@
               <button class="button outline-button">get in touch</button>
             </li>
           </ul>
+        </div>
+        <div class="col d-flex d-md-none justify-content-end align-items-center">
+          <font-awesome-icon icon="fa-solid fa-bars" class="hamburger-menu"/>
         </div>
       </div>
     </div>
@@ -57,6 +60,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import '../assets/scss/palette.scss';
 nav {
   position: absolute;
   top: 0;
@@ -64,5 +68,11 @@ nav {
   left: 0;
   padding: 15px 0;
   font-size: 12px;
+
+  .hamburger-menu {
+    color: $lightlagoon;
+    font-size: 30px;
+    padding-right: 10px;
+  }
 }
 </style>
