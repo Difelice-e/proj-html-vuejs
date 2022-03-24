@@ -16,6 +16,13 @@
               </div>
           </div>
       </div>
+
+      <!-- elemento grafico  -->
+      <div class="carousel-cmd">
+          <div class="carousel-indicator"></div>
+          <div class="carousel-indicator active"></div>
+          <div class="carousel-indicator"></div>
+      </div>
   </section>
 </template>
 
@@ -51,5 +58,28 @@ export default {
             font-size: 18px;
         }
     }
+
+    .carousel-cmd {
+        position: absolute;
+        top: 50%;
+        right: 10px;
+        transform: translateY(-50%);
+
+        .carousel-indicator {
+        border: 1px solid $bluelagoon;
+        background-color: transparent;
+        border-radius: 999px;
+        height: 30px;
+        width: 8px;
+        margin-bottom: 5px;
+        
+
+            &.active {
+                background-color: $bluelagoon;
+            }
+        }
+    }
+
+    
 }
 </style>

@@ -33,6 +33,9 @@
         </div>
       </div>
     </div>
+    <!-- contenuto puramente grafico   -->
+    <div class="divider before-element"><img src="../assets/svgs/svg-0.svg" alt=""></div>
+    <div class="divider after-element"><img src="../assets/svgs/svg-0.svg" alt=""></div>
   </section>
 </template>
 
@@ -76,11 +79,30 @@ export default {
   background-repeat: no-repeat;
   background-position: right;
   min-height: 550px;
+  position: relative;
 
   .icon {
     height: 30px;
     color: #0FA8A4;
     margin-right: 5px;
   }
+
+  .divider {
+    filter: invert(31%) sepia(92%) saturate(4156%) hue-rotate(165deg) brightness(92%) contrast(98%);
+    position: absolute;
+    right: 50%;
+    opacity: 0.5;
+
+    &.after-element {
+      bottom: 0;
+      transform: translate(50%, 75%)
+    }
+
+    &.before-element {
+      top: 0;
+      transform: translate(50%, -25%)
+    }
+  }
+
 }
 </style>

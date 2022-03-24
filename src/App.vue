@@ -44,7 +44,7 @@ export default {
 @import './assets/scss/common.scss';
 
 #app {
-  font-family: 'Roboto Slab', serif;
+  font-family: Helvetica,'Roboto Slab', serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
